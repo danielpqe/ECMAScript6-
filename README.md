@@ -203,13 +203,13 @@ console.log(string.padStart(7,'hi'))
 console.log(string.padEnd(12,'_________'))
 ```
 - Trailing comma
-````
+```
 const comma = {
     name: 'Dan',
 }
 ```
 - Async Await
-````
+```
 const helloWorld = ()=> {
     return new Promise((resolve,reject)=>{
         if(true){
@@ -229,7 +229,7 @@ const helloAsync = async () => {
 helloAsync();
 ```
 - Try catch
-````
+```
 const anotherFunction = async () => {
     try {
         const hello = await helloWorld();
@@ -251,7 +251,7 @@ const obj = {
 
 let {country, ...all }  =obj;
 console.log(all)
-````
+```
 
 - Concatenate items in objects
 ```
@@ -265,7 +265,7 @@ const obj3 = {
     country: 'Perú'
 }
 console.log(obj3)
-````
+```
 
 - Promise.finally
 ```
